@@ -1,0 +1,23 @@
+#red, #blue, #green {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#red {
+    border: 1px solid red;
+    top: 50px;
+    left: 50px;
+}
+
+#blue {
+    border: 1px solid blue;
+    top: 50px;   /* на том же уровне */
+    left: 120px; /* правее красного */
+}
+
+#green {
+    border: 1px solid green;
+    top: 50px;   /* на том же уровне */
+    left: 190px; /* правее синего */
+}
